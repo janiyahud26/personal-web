@@ -6,23 +6,47 @@ body {
   background-size: cover;
 }
 
-nav {
+.navbar {
   background-color: violet;
   border-bottom: solid 3px black;
   top: 0;
   padding: 1%;
-  display: flex;
   align-items: flex-end;
   justify-content: space-around;
   position: relative;
   list-style-type: none;
-  margin: 0;
+  display: flex;
+}
+nav {
+  width:100%;
+  top:0;
+  margin:0;
+  position:fixed;
+}
+ul.nav {
+  margin:0;
+  list-style-type:none;
+  display:flex;
+  flex-wrap:wrap;
+  flex-direction:row;
+  justify-content:space-around;
+  align-items:center;
+}
+
+/*ul.nav li {*/
+/*  font-size: 2em;*/
+/*  padding:0.5em;*/
+/*}*/
+
+.nav a { 
+  text-decoration:none;
+  color:white;
 }
 .nav-item{
-  display: flex;
-  flex-direction: row;
-  align-items:center;
-  justify-content:flex-start;
+  /*display: flex;*/
+  /*flex-direction: row;*/
+  /*align-items:center;*/
+  /*justify-content:flex-start;*/
 }
 .nav-logo{
   width: 87.75px;
