@@ -11,11 +11,6 @@ body {
   border-bottom: solid 3px black;
   top: 0;
   padding: 1%;
-  align-items: flex-end;
-  justify-content: space-around;
-  position: relative;
-  list-style-type: none;
-  display: flex;
 }
 nav {
   width:100%;
@@ -26,32 +21,27 @@ nav {
 ul.nav {
   margin:0;
   list-style-type:none;
+  text-decoration: none;
   display:flex;
   flex-wrap:wrap;
   flex-direction:row;
   justify-content:space-around;
   align-items:center;
 }
-
-/*ul.nav li {*/
-/*  font-size: 2em;*/
-/*  padding:0.5em;*/
-/*}*/
-
-.nav a { 
-  text-decoration:none;
-  color:white;
+.nav-item, 
+.footer-item{
+  size: 2em;
+  color:yellow;
+  text-decoration: none;
+  display: flex;
+  justify-content:space-around; 
 }
-.nav-item{
-  /*display: flex;*/
-  /*flex-direction: row;*/
-  /*align-items:center;*/
-  /*justify-content:flex-start;*/
-}
+
 .nav-logo{
   width: 87.75px;
   height: 87.75px;
 }
+
 .index-img {
   display:flex;
   justify-content: center;
@@ -101,14 +91,6 @@ footer {
   align-items: center;
   justify-content: space-around;
   position: relative;
-}
-
-a:link {
-  color:yellow;
-  font-size: 1.5em;
-  text-decoration: none;
-  display: flex;
-  justify-content:center; 
 }
 
 a:hover {

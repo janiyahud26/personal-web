@@ -30,16 +30,20 @@ div {
   margin: .5em;
   border: solid darkblue .25em;
 }
-.artist-name2,
-.artist-song2{
+/*.artist-name2,*/
+/*.artist-song2{*/
  
+/*}*/
+.album1,
+.album2,
+.album3,
+.album4,
+.album5,
+.album6,
+.album7{
+  max-width: 15em;
 }
 
-.album-img{
-  width: 100%;
-  height:  auto;
-  ;
-}
 
 .album1 {
   background-color: grey;
@@ -90,6 +94,8 @@ div {
 .artist-name2{
   color:maroon;
   font-size: 1.7em;
+  display:flex;
+  justify-content: center;
 }
 .artist-name2,
 .artist-song2{
@@ -97,10 +103,10 @@ div {
   
   
 }
-body {
-  background-color: #000000;
-  background-image: url("https://www.transparenttextures.com/patterns/checkered-light-emboss.png");
-}
+/*body {*/
+/*  background-color: #000000;*/
+/*  background-image: url("https://www.transparenttextures.com/patterns/checkered-light-emboss.png");*/
+/*}*/
 
 
 footer {
