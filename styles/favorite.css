@@ -23,17 +23,10 @@ ul{
   justify-content: center;
 }
 
-div {
-  /*   padding:.25 0em; */
-  width: 25%;
-  text-align: center;
-  margin: .5em;
-  border: solid darkblue .25em;
-}
+
 /*.artist-name2,*/
 /*.artist-song2{*/
  
-/*}*/
 .album1,
 .album2,
 .album3,
@@ -42,6 +35,11 @@ div {
 .album6,
 .album7{
   max-width: 15em;
+  padding:.25 0em; 
+  width: 25%;
+  text-align: center;
+  margin: .5em;
+  border: solid darkblue .25em;
 }
 
 
@@ -105,7 +103,7 @@ div {
 }
 /*body {*/
 /*  background-color: #000000;*/
-/*  background-image: url("https://www.transparenttextures.com/patterns/checkered-light-emboss.png");*/
+  /*background-image: url("https://www.transparenttextures.com/patterns/checkered-light-emboss.png");*/
 /*}*/
 
 

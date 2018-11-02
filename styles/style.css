@@ -1,14 +1,16 @@
 body {
   width: 100%;
   margin: 0;
-  height: 100%;
   background: url("https://images.pexels.com/photos/56866/garden-rose-red-pink-56866.jpeg?auto=compress&cs=tinysrgb&h=350")no-repeat fixed;
   background-size: cover;
+}
+main{
+  width: 100%;
 }
 
 .navbar {
   background-color: violet;
-  border-bottom: solid 3px black;
+  border-bottom: solid 3px yellow;
   top: 0;
   padding: 1%;
 }
@@ -18,7 +20,7 @@ nav {
   margin:0;
   position:fixed;
 }
-ul.nav {
+.nav {
   margin:0;
   list-style-type:none;
   text-decoration: none;
@@ -30,7 +32,8 @@ ul.nav {
 }
 .nav-item, 
 .footer-item{
-  size: 2em;
+  font-size: 1.6em;
+  margin : .4em;
   color:yellow;
   text-decoration: none;
   display: flex;
@@ -85,7 +88,7 @@ p {
 
 footer {
   background-color: violet;
-  border-top: solid 3px black;
+  border-top: solid 3px yellow;
   padding: 2%;
   display: flex;
   align-items: center;
