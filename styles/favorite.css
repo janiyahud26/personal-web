@@ -34,14 +34,17 @@ ul{
 .album5,
 .album6,
 .album7{
-  max-width: 15em;
-  padding:.25 0em; 
-  width: 25%;
-  text-align: center;
-  margin: .5em;
+  
+  /*max-width: 15em;*/
+  /*padding:.25 0em; */
+  /*width: 25%;*/
+  /*text-align: cent0er;*/
+  /*margin: .5em;*/
   border: solid darkblue .25em;
 }
-
+.album-img{
+  display: block;
+}
 
 .album1 {
   background-color: grey;
