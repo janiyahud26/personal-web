@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Great+Vibes|Vollkorn|Raleway');
 
 body{
+  font-family: 'Raleway'
   width: 100%;
   margin: 0;
 }
@@ -19,31 +20,37 @@ ul{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-around;
   justify-content: center;
+  align-content: flex end;
 }
 
 
 /*.artist-name2,*/
 /*.artist-song2{*/
  
-.album1,
-.album2,
-.album3,
-.album4,
-.album5,
-.album6,
-.album7{
-  
-  /*max-width: 15em;*/
-  /*padding:.25 0em; */
-  /*width: 25%;*/
-  /*text-align: cent0er;*/
-  /*margin: .5em;*/
-  border: solid darkblue .25em;
+/*.album1,*/
+/*.album2,*/
+/*.album3,*/
+/*.album4,*/
+/*.album5,*/
+/*.album6,*/
+/*.album7,*/
+/*.album8,*/
+/*.album9,*/
+/*.album10,*/
+/*.album11,*/
+/*.album12,*/
+/*.album9,*/
+div{
+  padding:.25em 0em;
+  width:25%;
+  margin: .5em;
+  border-radius:1em;
+  text-transform: capitalize;
 }
 .album-img{
-  display: block;
+  width: 100%;
+  border-radius: 1em;
 }
 
 .album1 {
@@ -141,4 +148,5 @@ img {
 .fav-app{
   list-style-type: none;
 }
+
 
